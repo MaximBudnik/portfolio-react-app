@@ -22,8 +22,8 @@ COPY . .
 RUN yarn build
 
 # Expose the port.
-EXPOSE 3000
+EXPOSE 5000
 
 # Run the application.
-CMD ["serve", "-s", "build", "-l", "3000"]
+CMD ["serve", "-s", "build", "-l", "5000"]
 
